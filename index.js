@@ -6,7 +6,7 @@ app.use(express.json());
 app.get('/', (req, res)  => {
     res.send({
         status: true,
-        data: 'This is homepage'
+        data: 'Jenkins setup is done'
     })
 })
 
